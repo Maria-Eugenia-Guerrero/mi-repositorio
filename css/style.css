@@ -1,0 +1,197 @@
+/*
+PALETA DE COLORES
+{color}
+#2B3A55
+#CE7777
+#F2E5E5
+#E8C4C4
+#3B185F
+#C060A1
+#F0CAA3
+#A56DD1
+#000000
+#FFFFFF
+*/
+
+/* tipo de fuentes
+{
+font-family: 'Lora', serif; para titulo
+font-family: 'Neuton', serif; para texto general
+font-family: 'Tangerine', serif; para footer
+}
+*/
+
+/*color de letra cuando el fondo es oscuro */
+footer{
+    color: white;
+}
+/* condicion de inicio*/
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+{
+    color: black ;
+}
+
+.nav {
+    font-family: 'Lora', serif;  
+    font-size: 30px;
+    background-color: #A56DD1;
+    display: flex;
+}
+
+.nav img{
+    margin-top: 25px;
+    margin-left: 30px;
+    display: flex; 
+}
+
+.container {
+    display: flex;
+}
+
+nav container {
+    display: flex;
+}
+
+.navBar {
+    background-color: #A56DD1;
+}
+
+.main {
+    font-family: 'Neuton', serif; 
+    font-size: 30px;
+    background-image: url(../assets/img/fondo-acuarela.jpg);
+    background-size: auto;
+}
+
+.fondo {
+    background-image: url(../assets/img/fondo-acuarela.jpg);
+    background-size: auto;
+}
+
+.titulo-principal{
+    font-family: 'Neuton', serif;
+    text-align: center;
+    font-size: 80px;
+    font-weight: lighter;
+    padding: 0px;
+}
+
+.titulo-secundario{
+    text-align: center;
+    font-size: 70px;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.huella{
+    margin-top: 20px;
+}
+
+.footer{
+    font-family: 'Tangerine', serif; 
+    font-size: 48px;
+    background-color: #A56DD1;
+    display: flex;
+}
+
+
+/*para acomodar imagenes una al lado de la otra y que queden con la misma separacion
+*/
+.container{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify content:space between;
+}
+
+nav container{ 
+    background-image: url(../assets/img/fondo-acuarela.jpg);
+    background-size: auto;
+}
+
+.titulo img{
+    border-radius: 50%;
+    object-fit: cover;
+    padding-bottom: 30px;
+}
+
+.nosotros {
+    text-align: center; 
+}
+
+.footer{
+    padding-left: 800px;
+}
+
+.footer-logo{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*para quitar subrayado*/
+. nav container{
+    text-decoration: none;
+}
+
+.navBar{
+    text-decoration: none;
+}
+
+.navBar{
+    list-style-type: none;
+}
+
+.navBar a{
+    text-decoration: none;
+}
+
+.servicios img{
+    text-decoration: none;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.servicios{
+    text-align: center;
+}
+
+.nosotros{
+    list-style-type: none;
+}
+
+.nosotros a{
+    text-decoration: none;
+}
+
+.nosotros img{
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.galeria{
+    display: flex;
+}
+
+.fondo{
+    border: 2px black solid;
+}
+
+.titulo-novedades{
+    font-family: 'Neuton', serif;
+    font-size: 60px;
+    font-weight: lighter;
+    padding: 0px;
+}
+
+
